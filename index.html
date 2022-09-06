@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  .container {
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  padding-top: 56.25%; 
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  margin-bottom: 50px;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.sub{
+    font-family:'Poppins'; 
+    font-size: 2em;
+    font-weight: 600;
+}
+    </style>
+    <h1 class="display-1" style="@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); font-family: 'Poppins', sans-serif; text-align:center; font-size:3em;">Job Alerts</h1>
+    <hr>
+    <h3 class="sub">Cyber Tecz</h3> 
+    <div class="container">
+        <iframe class="responsive-iframe" src="https://jobs.cybertecz.in/category/2023-batch/"></iframe>
+    </div>
+    <h3 class="sub">Freshers Now</h3> 
+    <div class="container">
+        <iframe class="responsive-iframe" src="https://www.freshersnow.com/"></iframe>
+    </div>
+    <h3 class="sub">Fresher Openings</h3> 
+      <div class="container">
+        <iframe class="responsive-iframe" src="https://fresheropenings.com/"></iframe>
+      </div>
+     <h3 class="sub">E-Writing Cafe</h3> 
+    <div class="container">
+        <iframe class="responsive-iframe" src="https://ewritingcafe.com/off-campus-drive-2023-batch/"></iframe>
+    </div>
+</body>
+</html>
